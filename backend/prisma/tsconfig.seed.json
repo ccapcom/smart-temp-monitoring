@@ -7,5 +7,5 @@
     "outDir": "../dist/prisma",
     "rootDir": "."
   },
-  "include": ["seed.ts"]
+  "include": ["seed.ts", "seed-sample.ts"]
 }

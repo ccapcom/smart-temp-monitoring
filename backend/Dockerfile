@@ -9,7 +9,7 @@ COPY . .
 RUN npx prisma generate
 RUN npm run build
 RUN npx tsc --project prisma/tsconfig.seed.json
-RUN ls dist/main.js && ls dist/prisma/seed.js
+RUN ls dist/main.js && ls dist/prisma/seed.js && ls dist/prisma/seed-sample.js
 
 FROM node:20-alpine
 WORKDIR /app
